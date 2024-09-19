@@ -85,7 +85,7 @@ ConfusionMatrixDisplay: Random Forest sonuçlarını görselleştirmek için kul
 
 ## Sonuçlar
 
-## Dataseti Grafiklerinin Genel Sonucu
+## Dataseti Grafiklerinin Genel Sonuçları
 
 - İncelenen veriler 3 farklı lokasyonda mağazası bulunan bir Kahve Dükkanına aittir. 1 Ocak 2023 tarihi ile 30 Haziran 2023'e kadar veriler mevcuttur.
 Ocak ayında 2000 birim ile başlayan kazanç, haziran ayının sonuna kadar ara ara düşüş yaşasa da sürekli yükselme eğilimindedir ve haziran sonunda 6000 birime ulaşmıştır.
