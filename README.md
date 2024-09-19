@@ -115,7 +115,7 @@ Ocak ayında 2000 birim ile başlayan kazanç, haziran ayının sonuna kadar ara
 ## Not
 
 Bu kısımda proje sürecini kendim için yorumlayacağım.
-Öncelikle söylemem gerekiyor ki bu projeye başlarken sadece giriş seviyesinde bir Phyton bilgisine sahiptim. ML hakkında ise en ufak bir fikre sahip değildim, kendimi denemek ve kendi birikimim(Endüstriyel Tasarım çıkışlıyım.) ile en ufak bir benzerliğe sahip olmayan bu alanda kendime meydan okumak istedim.
+Öncelikle söylemem gerekiyor ki bu projeye başlarken sadece giriş seviyesinde bir Python bilgisine sahiptim. ML hakkında ise en ufak bir fikre sahip değildim, kendimi denemek ve kendi birikimim(Endüstriyel Tasarım çıkışlıyım.) ile en ufak bir benzerliğe sahip olmayan bu alanda kendime meydan okumak istedim.
 Göker Hocamın ders anlatım videosunu dinleyerek daha genel bir bilgi anlayışına sahip oldum ve devamında sunulan kaynaklar, örnek çalışmalar ve yapay zekanın yardımı ile kendimi geliştirdim bunların sonucunda da projemi sonuçlandırdım.
 Bu readme dosyası dışında .ipynb uzantılı dosya projemi değerlendirecek ya da okuyacak kişi ve kişiler için değil, öğrenim sürecimde neler yaptığımın doğrultusunda aslında ders çalışır gibi kendime aldığım notlardır. Bu noktada istenilenden daha açıklayıcı ya da fazla uzun olmuş olabilir.
 Verilen sürenin benim için yeterli olduğunu düşünüyorum. Mentörlerimiz de oldukça bilgili ve ilgiliydi. Herkese ayrı ayrı emekleri doğrultusunda teşekkür ederim buradan, bu farklı deneyim için özellikle. Uğurcan hocam ve Sima hocam da sorularımı yanıtlayarak bana çok yardımcı oldular, buradan onlara ayrı bir teşekkürler geçmek istedim.
