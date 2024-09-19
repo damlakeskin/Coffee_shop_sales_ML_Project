@@ -75,12 +75,19 @@ Projede kullanılan bazı modeller ve performans değerlendirme metrikleri aşa�
 Proje boyunca aşağıdaki Python kütüphaneleri kullanılmıştır:
 
 NumPy: Matematiksel işlemler ve dizi işlemleri için kullanılır.
+
 Pandas: Veri işleme ve analiz işlemlerini gerçekleştirmek için kullanılır. CSV ve Excel dosyalarını işlemek için idealdir.
+
 Scikit-learn: Makine öğrenmesi algoritmalarını (linear regression, random forest, k-means clustering, vb.) uygulamak ve değerlendirmek için kullanılır.
+
 Seaborn & Matplotlib: Veri görselleştirmeleri oluşturmak için kullanılır. Bar grafikleri, ısı haritaları, scatter plotlar vb. görseller oluşturulmuştur.
+
 Openpyxl: Excel dosyalarının işlenmesi ve okunması için kullanılır.
+
 StandardScaler: Verilerin standardize edilmesi için kullanılır, özellikle K-means kümeleme algoritmasında.
+
 GridSearchCV: Model optimizasyonu için kullanılır, parametre ayarlaması yapılır.
+
 ConfusionMatrixDisplay: Random Forest sonuçlarını görselleştirmek için kullanılır.
 
 ## Sonuçlar
