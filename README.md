@@ -1,4 +1,50 @@
-# Coffee_shop_sales_ML_Project
+# Coffee_shop_sales_ML_Project (Kahve Dükkanı Satış Verisi Üzerinde Makine Öğrenmesi Projesi)
+
+## Bu projenin amacı, 
+Bir kahve dükkanı zincirine ait satış verilerini analiz ederek iş süreçlerini daha verimli hale getirmek, müşteri taleplerini daha iyi anlamak, gelecekteki satışları öngörmek ve hizmet iyileştirmesi ya da olası kampanya düzenlemeleri hakkında altyapı oluşturabilecek verilere ulaşmaktır. Proje, veri bilimi ve makine öğrenmesi tekniklerini kullanarak aşağıdaki hedeflere ulaşmayı amaçlar.
+
+1. **Satış Trendlerinin Analizi**: Belirli zaman dilimlerinde (gün, hafta, ay) satış trendlerinin belirlenmesi, mağaza performanslarının karşılaştırılması ve satışlara etki eden faktörlerin ortaya çıkarılması.
+   
+2. **Mağaza Performanslarının Karşılaştırılması**: Farklı lokasyonlardaki mağazaların satış performanslarının incelenmesi ve gelirlerine göre mağaza kümelerinin oluşturulması. Bu sayede hangi mağazaların en yüksek performansa sahip olduğu ve hangi mağazaların iyileştirilmesi gerektiği tespit edilecektir.
+   
+3. **Ürün Kategorileri Üzerinden Gelir Analizi**: Ürün kategorilerinin ve ürünlerin satış performanslarının incelenmesi, hangi kategorilerin ve ürünlerin en fazla gelir getirdiğinin anlaşılması. Bu analiz ile stok yönetimi ve ürün çeşitliliği gibi konularda daha bilinçli kararlar alınması hedeflenmektedir.
+   
+4. **Sipariş Tahmini**: Gelecekteki satışları ve sipariş miktarlarını tahmin etmek için regresyon modelleri ve sınıflandırma algoritmaları uygulanmıştır. Bu tahminler ile işletmenin tedarik zinciri, stok yönetimi ve operasyonel planlama süreçleri optimize edilebilir.
+   
+5. **Kümeleme ile Segmentasyon**: KMeans algoritması kullanılarak hem mağazalar hem de ürün kategorileri arasında kümeler oluşturulmuştur. Bu kümeler, farklı mağaza lokasyonları ve ürün kategorileri için daha hedefe yönelik stratejiler geliştirmeyi sağlar.
+   
+6. **Model Performansının Değerlendirilmesi ve İyileştirilmesi**: Farklı makine öğrenmesi algoritmaları (Doğrusal Regresyon ve Random Forest gibi) kullanılarak satış tahminleri yapılmış ve performansları değerlendirilmiştir. Ayrıca, Grid Search yöntemi ile model hiperparametreleri optimize edilerek model doğruluğu arttırılmıştır.
+
+
+Bu proje ile hem geçmiş veriler ışığında satışların analizi yapılmış hem de makine öğrenmesi ile geleceğe yönelik tahminler üretilmiştir. Böylece işletmenin daha verimli ve karlı bir şekilde yönetilmesine katkı sağlanması amaçlanmaktadır.
+
+## İçindekiler
+
+- [Veri Seti Hakkında](#veri-seti-hakkında)
+- [Proje Adımları](#proje-adımları)
+- [Modeller ve Değerlendirmeler](#modeller-ve-değerlendirmeler)
+- [Kullanılan Kütüphaneler](#kullanılan-kütüphaneler)
+- [Sonuçlar](#sonuçlar)
+- [Not](#not)
+
+## Veri Seti Hakkında
+Veri seti, kahve dükkanlarındaki satış işlemlerini içermektedir. Aşağıda veri setinde yer alan sütun bilgileri listelenmiştir:
+
+- **Transaction ID**: İşlem için benzersiz kimlik numarası.
+- **Transaction Date**: İşlemin gerçekleştiği tarih.
+- **Transaction Time**: İşlemin gerçekleştiği saat.
+- **Store Number**: Mağazanın kimlik numarası.
+- **Store Location**: Mağazanın bulunduğu lokasyon.
+- **Unit Number**: Mağaza içindeki birim numarası.
+- **Product Category**: Ürünün kategorisi.
+- **Product Type**: Ürünün türü.
+- **Product Name**: Ürünün adı.
+- **Price**: Ürünün fiyatı.
+- **Month**: İşlemin yapıldığı ay.
+- **Day**: İşlemin yapıldığı gün.
+- **Weekday**: İşlemin yapıldığı hafta günü.
+- **Hour**: İşlemin yapıldığı saat.
+
 ## Proje Adımları
 1. **Veri Yükleme ve İnceleme**: `pandas` ve `openpyxl` kullanılarak veri seti yüklendi ve genel bir inceleme yapıldı.
 2. **Veri Temizleme**: Eksik veya tekrar eden veriler kontrol edildi ve temizlendi.
@@ -66,15 +112,9 @@ Bu kısımda proje sürecini kendim için yorumlayacağım.
 Göker Hocamın ders anlatım videosunu dinleyerek daha genel bir bilgi anlayışına sahip oldum ve devamında sunulan kaynaklar, örnek çalışmalar ve yapay zekanın yardımı ile kendimi geliştirdim bunların sonucunda da projemi sonuçlandırdım.
 Bu readme dosyası dışında .ipynb uzantılı dosya projemi değerlendirecek ya da okuyacak kişi ve kişiler için değil, öğrenim sürecimde neler yaptığımın doğrultusunda aslında ders çalışır gibi kendime aldığım notlardır. Bu noktada istenilenden daha açıklayıcı ya da fazla uzun olmuş olabilir.
 Verilen sürenin benim için yeterli olduğunu düşünüyorum. Mentörlerimiz de oldukça bilgili ve ilgiliydi. Herkese ayrı ayrı emekleri doğrultusunda teşekkür ederim buradan, bu farklı deneyim için özellikle. Uğurcan hocam ve Sima hocam da sorularımı yanıtlayarak bana çok yardımcı oldular, buradan onlara ayrı bir teşekkürler geçmek istedim.
-## Kurulum
 
 ## Kaggle Linki ve Dataseti Linki
 
 https://www.kaggle.com/code/ayemdamlakeskin/coffee-shop-sales-ml-project
 https://www.kaggle.com/datasets/ahmedmohamedibrahim1/coffee-shop-sales-dataset/code
 
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
-
-1. Bu repoyu klonlayın:
-   ```bash
-   git clone https://github.com/kullaniciadi/kahve-dukkani-satis-verisi.git
