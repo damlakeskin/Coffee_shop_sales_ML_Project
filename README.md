@@ -37,9 +37,9 @@ StandardScaler: Verilerin standardize edilmesi için kullanılır, özellikle K-
 GridSearchCV: Model optimizasyonu için kullanılır, parametre ayarlaması yapılır.
 ConfusionMatrixDisplay: Random Forest sonuçlarını görselleştirmek için kullanılır.
 
-##Sonuçlar
+## Sonuçlar
 
-##Dataseti Grafiklerinin Genel Sonucu
+## Dataseti Grafiklerinin Genel Sonucu
 
 - İncelenen veriler 3 farklı lokasyonda mağazası bulunan bir Kahve Dükkanına aittir. 1 Ocak 2023 tarihi ile 30 Haziran 2023'e kadar veriler mevcuttur.
 Ocak ayında 2000 birim ile başlayan kazanç, haziran ayının sonuna kadar ara ara düşüş yaşasa da sürekli yükselme eğilimindedir ve haziran sonunda 6000 birime ulaşmıştır.
@@ -53,13 +53,13 @@ Ocak ayında 2000 birim ile başlayan kazanç, haziran ayının sonuna kadar ara
 - Korelasyon matrixi oluşturulmuştur. Çıktıları, bazı ürünlerin daha az satılıyor olabileceği, ürün fiyatı arttıkça sipariş miktarının azaldığı yönündedir.
 - Ürün bazlı kümelenen değerler ile bu mağazaların en fazla gelir sağladığı ürün kategorisi "Drinking Chocolate"dır.
 
-##Unsupervised ve Supervised Learning Sonuçları
+## Unsupervised ve Supervised Learning Sonuçları
 
 - Lineer Regresyon(LinearRegression) ve Rastgele Orman Sınıflandırıcısı(RandomForestClassifier) algoritması ve K-Means(K-Ortalama) Kümeleme Algoritması Seçilmiştir.
 - Lineer Regresyon(LinearRegression) ve Rastgele Orman Sınıflandırıcısı(RandomForestClassifier) algoritması modellerinde elde edilen sonuç Hiperparametre sonuçlarına fazlasıyla yakındır.
 - Hiperparametre çıktıları karşılaştırılmış ve Lineer Regresyon(LinearRegression) algoritmasının daha doğru ve makul bir model sağladığı sonucuna varılmıştır.
 
-##Not
+## Not
 
 Bu kısımda proje sürecini kendim için yorumlayacağım.
 Öncelikle söylemem gerekiyor ki bu projeye başlarken sadece giriş seviyesinde bir Phyton bilgisine sahiptim. ML hakkında ise en ufak bir fikre sahip değildim, kendimi denemek ve kendi birikimim(Endüstriyel Tasarım çıkışlıyım.) ile en ufak bir benzerliğe sahip olmayan bu alanda kendime meydan okumak istedim.
