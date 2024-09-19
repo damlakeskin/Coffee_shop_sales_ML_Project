@@ -67,6 +67,12 @@ Göker Hocamın ders anlatım videosunu dinleyerek daha genel bir bilgi anlayı�
 Bu readme dosyası dışında .ipynb uzantılı dosya projemi değerlendirecek ya da okuyacak kişi ve kişiler için değil, öğrenim sürecimde neler yaptığımın doğrultusunda aslında ders çalışır gibi kendime aldığım notlardır. Bu noktada istenilenden daha açıklayıcı ya da fazla uzun olmuş olabilir.
 Verilen sürenin benim için yeterli olduğunu düşünüyorum. Mentörlerimiz de oldukça bilgili ve ilgiliydi. Herkese ayrı ayrı emekleri doğrultusunda teşekkür ederim buradan, bu farklı deneyim için özellikle. Uğurcan hocam ve Sima hocam da sorularımı yanıtlayarak bana çok yardımcı oldular, buradan onlara ayrı bir teşekkürler geçmek istedim.
 ## Kurulum
+
+## Kaggle Linki ve Dataseti Linki
+
+https://www.kaggle.com/code/ayemdamlakeskin/coffee-shop-sales-ml-project
+https://www.kaggle.com/datasets/ahmedmohamedibrahim1/coffee-shop-sales-dataset/code
+
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
 1. Bu repoyu klonlayın:
